@@ -30,8 +30,10 @@ To reach the river without colliding into any one of the bugs.
 4. Change the current working directory to the location where you want the cloned directory to be made.
 5. Type `git clone`, and paste the URL you copied, and then press enter.
 
+**OR**
+
+1. Click on this [link](https://alfred-kctang.github.io/Udacity-FWDNanodegree-Classic-Arcade-Game-Clone-Project/) to open the live version of the page.
+
 ## Contributing
 
 This repository is the author's code for a project of Udacity Front-end Web Developer Nanodegree.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
