@@ -79,8 +79,31 @@ var Engine = (function(global) {
      */
     function update(dt) {
         updateEntities(dt);
-        // checkCollisions();
+        // checkCollisions()
+        allEnemies.forEach(function(enemy) {
+            if (player.y == enemy.y && player.x >= enemy.x && (player.x - enemy.x) <= 30) {
+                //alert('Collide!');
+                player.reset();
+            } else if (player.y == enemy.y && enemy.x >= player.x && (enemy.x - player.x) <= 60) {
+                //alert('Collide!');
+                player.reset();
+            }
+        });
     }
+
+    /* Since the x-axes of the player and vehicles don't exactly overlap,
+     * so it counts as a collision when the distances between the player
+     * and vehicles are short. There are two possible circumstances:
+     * 1. The player is right to a coming vehicle, i.e. the player's
+     * x-axis is larger than the vehicle's axis, then they collide with
+     * with each other when their distance is larger than or equal to 30
+     * pixels.
+     * 2. The player is left to a passing vehicle, i.e. the player's
+     * x-axis is smaller than the vehicle's axis, then they collide with
+     * with other other when their distance is larger than or equal to 60
+     * pixels. The player has to wait for a bit if the player wants to turn
+     * right without touching the passing vehicle.
+     */
 
     /* This is called by the update function and loops through all of the
      * objects within your allEnemies array as defined in app.js and calls
