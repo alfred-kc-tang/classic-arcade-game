@@ -6,6 +6,7 @@
 * [Game Rules](#gameRules)
 * [Installation](#installation)
 * [Contributing](#contributing)
+* [License](#license)
 
 ## How the Game Works
 
@@ -36,4 +37,8 @@ To reach the river without colliding into any one of the bugs.
 
 ## Contributing
 
-This repository is the author's code for a project of Udacity Front-end Web Developer Nanodegree.
+This repository is the author's code for a project of Udacity's Front-End Web Developer Nanodegree.
+
+## License
+
+The contents of this repository are covered under the [MIT License](https://choosealicense.com/licenses/mit/).
