@@ -1,4 +1,4 @@
-# [Classic Arcade Game Clone Project](https://alfred-kctang.github.io/Classic-Arcade-Game-Clone-Project/)
+# [Classic Arcade Game Clone Project](https://alfred-kctang.github.io/classic-arcade-game/)
 
 ## Table of Contents
 
