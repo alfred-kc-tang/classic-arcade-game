@@ -33,7 +33,7 @@ To reach the river without colliding into any one of the bugs.
 
 **OR**
 
-1. Click on this [link](https://alfred-kctang.github.io/Classic-Arcade-Game-Clone-Project/) to open the live version of the page.
+1. Click on this [link](https://alfred-kctang.github.io/classic-arcade-game/) to open the live version of the page.
 
 ## Contributing
 
